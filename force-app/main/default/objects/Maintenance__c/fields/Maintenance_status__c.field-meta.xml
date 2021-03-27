@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Maintenance_status__c</fullName>
+    <externalId>false</externalId>
+    <label>Maintenance status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>passed</fullName>
+                <default>false</default>
+                <label>passed</label>
+            </value>
+            <value>
+                <fullName>needs repair</fullName>
+                <default>false</default>
+                <label>needs repair</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

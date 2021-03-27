@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>X3_Column_view_Vehicle_Record</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>X3_Column_view_Vehicle_Record</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>Vehicle_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Vehicle_Compact_Layout</fullName>
+        <fields>Vehicle_Model__c</fields>
+        <fields>RecordTypeId</fields>
+        <fields>Vehicle_Year__c</fields>
+        <fields>Status__c</fields>
+        <label>Vehicle Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Current_Milage__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Milage</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Driver__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Driver</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Contact.Phone</field>
+                <operation>equals</operation>
+                <valueField>Contact.Phone</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Vehicles (Driver)</relationshipLabel>
+        <relationshipName>Drivers</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Last_Maintenance_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Maintenance Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Manager</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Vehicles</relationshipLabel>
+        <relationshipName>Vehicles</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Next_Maintenance_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Next Maintenance Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Plate_Number__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Vehicle&apos;s VIN number</description>
+        <externalId>false</externalId>
+        <label>Plate Number</label>
+        <length>17</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Available</fullName>
+                    <default>false</default>
+                    <label>Available</label>
+                </value>
+                <value>
+                    <fullName>Not Available</fullName>
+                    <default>false</default>
+                    <label>Not Available</label>
+                </value>
+                <value>
+                    <fullName>At Service</fullName>
+                    <default>false</default>
+                    <label>At Service</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Model__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Model</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Van</fullName>
+                    <default>true</default>
+                    <label>Van</label>
+                </value>
+                <value>
+                    <fullName>Truck</fullName>
+                    <default>false</default>
+                    <label>Truck</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Year__c</fullName>
+        <description>Production year</description>
+        <externalId>false</externalId>
+        <label>Vehicle Year</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Weight__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Chose a Truck waight</inlineHelpText>
+        <label>Weight</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1.5 - 2.0 tons</fullName>
+                    <default>true</default>
+                    <label>1.5 - 2.0 tons</label>
+                </value>
+                <value>
+                    <fullName>2.1 - 3.5 tons</fullName>
+                    <default>false</default>
+                    <label>2.1 - 3.5 tons</label>
+                </value>
+                <value>
+                    <fullName>3.5 - 7.0 tons</fullName>
+                    <default>false</default>
+                    <label>3.5 - 7.0 tons</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Vehicle</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>Last_Maintenance_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Vehicle license plate</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Vehicles</pluralLabel>
+    <recordTypes>
+        <fullName>Truck</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Vehicle_Compact_Layout</compactLayoutAssignment>
+        <label>Truck</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>At Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Available</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Vehicle_Type__c</picklist>
+            <values>
+                <fullName>Truck</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Weight__c</picklist>
+            <values>
+                <fullName>1%2E5 - 2%2E0 tons</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>2%2E1 - 3%2E5 tons</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%2E5 - 7%2E0 tons</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Van</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Vehicle_Compact_Layout</compactLayoutAssignment>
+        <label>Van</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>At Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Available</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Vehicle_Type__c</picklist>
+            <values>
+                <fullName>Van</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Weight__c</picklist>
+            <values>
+                <fullName>1%2E5 - 2%2E0 tons</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%2E1 - 3%2E5 tons</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%2E5 - 7%2E0 tons</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Plate_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Last_Maintenance_Date__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Next_Maintenance_Date_check</fullName>
+        <active>true</active>
+        <description>Next Maintenance Date must be later than Last Maintenance Date</description>
+        <errorConditionFormula>Next_Maintenance_Date__c  &lt;= Last_Maintenance_Date__c</errorConditionFormula>
+        <errorDisplayField>Next_Maintenance_Date__c</errorDisplayField>
+        <errorMessage>Next Maintenance Date must be later than Last Maintenance Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Plate_number_contain_or_starts_with_TX</fullName>
+        <active>true</active>
+        <description>Plate number should contain or start with &quot;TX&quot;</description>
+        <errorConditionFormula>OR(
+AND(
+NOT(CONTAINS( Plate_Number__c , &quot;TX&quot;))
+),
+
+AND(
+NOT(BEGINS(Plate_Number__c, &quot;TX&quot;))
+)
+)</errorConditionFormula>
+        <errorDisplayField>Plate_Number__c</errorDisplayField>
+        <errorMessage>Plate number should contain or start with &quot;TX&quot;</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>
